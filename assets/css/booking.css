@@ -1,0 +1,76 @@
+.booking_margin .price {
+  float: right;
+  color: #CC9966;
+}
+.booking_sidebar{
+  /* height: 200px; */
+  background: #fff;
+  margin: 50px auto;
+  box-shadow: 0 0 20px rgba(72,98,85, 0.6);
+  box-sizing: border-box;
+  padding: 50px;
+}
+.booking_margin{
+  padding: 5px;
+  /* margin-left: 40px; */
+}
+
+.container_Appointment{
+    max-width: 800px;
+    height: 600px;
+    background: #fff;
+    margin: 50px auto;
+    box-shadow: 0 0 20px rgba(72,98,85, 0.6);
+    box-sizing: border-box;
+    padding: 40px;
+  }
+  
+  .container_Appointment p{
+    text-align: center;
+    letter-spacing: 1px;  
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #486255;
+    border-bottom: 2px solid #eeebe8;
+  }
+  
+  .container_Appointment .input,
+  .msg .area{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    border: 2px solid #e9eaea;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+    transform: all 0.5s ease;
+  }
+  
+  .container_Appointment .login .input{
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+  }
+  
+  .login .input:last-child{
+    margin-right: 0;
+  }
+  
+  
+  .input:focus,
+  .msg .area:focus{
+    border: 1px solid #CC9966;
+  }
+  .btn_Appointment{
+      width: 100%;
+      background: #4A2C2A;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      margin: 0 auto;
+      color: #fff;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
